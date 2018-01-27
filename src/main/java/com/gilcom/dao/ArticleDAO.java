@@ -1,4 +1,4 @@
-package com.concretepage.dao;
+package com.gilcom.dao;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,8 +8,8 @@ import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.concretepage.entity.Article;
-import com.concretepage.entity.ArticleRowMapper;
+import com.gilcom.entity.Article;
+import com.gilcom.entity.ArticleRowMapper;
 @Transactional
 @Repository
 public class ArticleDAO implements IArticleDAO {

@@ -1,4 +1,4 @@
-package com.concretepage.dao;
+package com.gilcom.dao;
 import java.util.List;
 import com.concretepage.entity.Article;
 public interface IArticleDAO {
